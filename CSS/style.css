@@ -1,0 +1,509 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/********* NAVBAR *********/
+nav{
+    height: 90px;
+    background-color: black;
+}
+
+nav, .nav-links-btns, .nav-links, .nav-btns{
+    display: flex;
+}
+
+nav, .nav-links, .nav-btns{
+    align-items: center;
+    justify-content: space-evenly;
+    justify-content: center;
+}
+
+.nav-links > p, .nav-btns > button{
+    color: white;
+}
+
+/** NAV LINKS **/
+
+.nav-links{
+    margin-left: 260px;
+}
+
+.nav-links > p{
+    padding-right: 36px;
+}
+
+/** NAV BUTTONS **/
+
+.nav-btns > button{
+    height: 52px;
+}
+
+.nav-btns > #franchise{
+    background-color: black;
+    border: 1.5px solid white;
+    margin-right: 12px;
+    width: 130px;
+    border-radius: 35px;
+}
+
+.nav-btns > #order{
+    border: none;
+    background-color: #ed1c24 ;
+    width: 140px;
+    border-radius: 42px;
+}
+
+.red-arrow{
+    background-color: white;
+    color: #dc3545;
+    margin-left: 7px;
+    font-size: 16px;
+    padding: 6px 7px;
+    border-radius: 16px
+}
+
+/********* HERO SEC *********/
+
+.hero-sec{
+    height: 85vh;
+    background-image: url("../images/hero.png");
+    background-size: cover;
+}
+
+/********* BRAND SEC *********/
+
+.brands-sec{
+    height: 93vh;
+    background-color: black;
+    color: white;
+    padding: 70px 15px 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.brands-sec-heading{
+    font-size: 39px;
+    text-align:center;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.brands-sec p{
+    color: rgba(255, 255, 255, 0.7);
+    letter-spacing: 0.03em;
+    margin-bottom: 40px;
+}
+
+.brands-sec-list{
+    display: flex;
+}
+
+.list1, .list2, .list3{
+    padding: 0px 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.brands-sec-list img{
+    background-color: white;
+    width: 250px;
+    height: 140px;
+    border-radius: 3px;
+    object-fit: contain;
+    padding: 0px 19px;
+}
+
+.brands-sec-list button{
+    background-color: black;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    width: 174px;
+    height: 50px;
+    margin: 24px 38px 0;
+}
+
+/********* FRANCHISES SEC *********/
+.franchises{
+    background-color: #0c0c0c;
+    height: 200vh;
+    color: white;
+    padding: 70px;
+    position: relative;
+}
+
+.franchises .s-img{
+    position: absolute;
+    right: 32px;
+    top: 32px;
+}
+
+.fran-head{
+    text-align: center;
+}
+
+.fran-head h2{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 48px;
+    margin-bottom: 8px;
+}
+
+.fran-head p{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    margin-bottom: 48px;
+}
+
+.franchise-row{
+    display: flex;
+    margin: 0px 15px 48px;
+}
+
+.fran-content{
+    padding: 0px 15px;
+    width: 100%;
+}
+
+.res-vil-city{
+    color: #ED1C24;
+    font-size: 16px;
+    letter-spacing: 0.48em;
+    font-weight: lighter;
+    margin-bottom: 8px;
+}
+
+.fran-text-h2{
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+.franchise-add, .franchise-no{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.direction-btn button{
+    margin-top: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    width: 174px;
+    height: 50px;
+    background-color: #0c0c0c;
+    color: white;
+    border-radius: 50px;
+}
+
+/********* EXP FRANCHISES SEC *********/
+.exp-franchises{
+    background-color: black;
+    color: white;
+    padding: 70px 0px 38px;
+    height: 190vh;
+    position: relative;
+}
+
+.p-img{
+    position: absolute;
+    left: 33px;
+    top: 40px;
+}
+
+.expfran-red-shade{
+    position: absolute;
+    transform: rotate(180deg);
+    right: 0px;
+    bottom: 0px;
+}
+
+.exp-fran-head h2{
+    margin-bottom: 30px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 48px;
+}
+
+.exp-fran-content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.exp-fran-data{
+    padding: 0px 15px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.exp-fran-data img{
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.exp-fran-city{
+    color: #ED1C24;
+    font-size: 12px;
+    letter-spacing: 0.48em;
+    margin: 24px 0px 8px;
+}
+
+.exp-fran-data h3{
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 18px;
+}
+
+.exp-fran-add, .exp-fran-no{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 12px;
+}
+
+.exp-fran-data button{
+    margin-top: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    width: 174px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+}
+
+.exp-fran-data button i{
+    transform: rotate(55deg);
+}
+
+/********* EXP FRANCHISES SEC *********/
+.vil-fran{
+    background-color: #0c0c0c; 
+    color: white; 
+    height: 95vh;
+    padding: 48px 0px;
+}
+
+.vil-fran h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 48px;
+    margin-bottom: 32px;
+}
+
+.vil-fran-row{
+    display: flex;
+}
+
+.vil-fran-row img{
+    padding-right: 15px;
+    width: 690px;
+    object-fit: cover;
+}
+
+.vil-fran-row-text{
+    width: 100%;
+    margin: 63px 0px;
+    padding: 16px 15px 0px;
+}
+
+.vil-fran-row-text h2{
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+.vil-fran-add, .vil-fran-no{
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.7);
+    letter-spacing: 0.03em;
+    margin-bottom: 10px;
+}
+
+.vil-fran-row-text button{
+    background-color: #28a745;
+    color: white;
+    border: 1px solid #28a745;
+    border-radius: 50px;
+    width: 174px;
+    height: 50px;
+    font-size: 14px;
+    margin-top: 40px;
+}
+
+.vil-btn{
+    background-color: white;
+    color: #28a745;
+    margin-left: 7px;
+    font-size: 16px;
+    padding: 6px 7px;
+    border-radius: 16px
+}
+
+/********* OPENING SOON *********/
+.open-soon{
+    background-color: black;
+    height: 110vh;
+    color: white;
+    padding: 60px 105px 38px;
+    position: relative;
+}
+
+.open-soon h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.open-soon h1 span{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 26px
+}
+
+.open-soon-red-shade{
+    position: absolute;
+    left: 0px;
+    top: -40px;
+}
+
+.open-soon-locations{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.o-s-loc-content{
+    background-color: white;
+    color: black;
+    padding: 25px 24px;
+    margin: 0px 15px 32px;
+    border-radius: 4px;
+    text-align: center;
+    z-index: 1;
+}
+
+.o-s-loc-content img{
+    width: 56px;
+    height: 56px;
+    margin: 0px 123px 16px;
+}
+
+.o-s-loc-content p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ED1C24;
+    font-size: 10px;
+    letter-spacing: 0.48em;
+    margin-bottom: 8px;
+}
+
+.o-s-loc-content h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.o-s-loc-content h2 span{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 21px;
+}
+
+.o-s-loc-content h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 21px;
+}
+
+/********* SOCIAL FEED *********/
+
+.social-feed{
+    height: 60vh;
+    background-color: black;
+    color: white;
+}
+
+.social-feed h2{
+    font-size: 32px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.social-feed-imgs{
+    display: flex;
+    justify-content: center;
+}
+
+.social-feed-imgs img{
+    width: 265px;
+    padding: 0px 10px;
+}
+
+/********* FOOTER *********/
+footer{
+    height: 70vh;
+    background-color: #0c0c0c;
+    color: white;
+    padding: 70px 15px 0px;
+    position: relative;
+}
+
+footer .footer-s{
+    position: absolute;
+    bottom: 0px;
+    left: 30px;
+}
+
+.footer-content{
+    display: grid;
+    grid-template-columns: 1.5fr 0.8fr 0.8fr 0.8fr;
+    margin: 0px 90px;
+}
+
+.footer-box{
+    padding-right: 45px;
+    position: relative;
+    z-index: 1;
+}
+
+.footer-box img{
+    width: 140px;
+    padding-bottom: 24px;
+}
+
+.footer-box h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    padding-bottom: 24px;
+}
+
+.footer-box p{
+    color: rgba(255, 255, 255, 0.7);
+    padding-bottom: 24px;
+    font-size: 15px;
+}
+
+.space{
+    padding-left: 15px;
+}
+
+.footer-icons{
+    display: flex;
+}
+
+.footer-icons span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ED1C24;
+    color: white;
+    margin-right: 8px;
+    font-size: 16px;
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+}
